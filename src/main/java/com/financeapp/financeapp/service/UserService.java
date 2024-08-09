@@ -44,7 +44,7 @@ public class UserService {
 
         String reEncodedPassword = bCryptPasswordEncoder.encode(user.getPassword());
 //        bCryptPasswordEncoder.matches(reEncodedPassword, foundUser.getPassword())
-        if (bCryptPasswordEncoder.matches(reEncodedPassword, foundUser.getPassword())) {
+        if (bCryptPasswordEncoder.matches(user.getPassword(), foundUser.getPassword())) {
             logger.info("Login successful for user: {}", user.getUsername());
             return foundUser;
         } else {
