@@ -1,0 +1,7 @@
+{
+  "description": "Grocery shopping",
+  "amount": 75.50,
+  "userId": "john_doe",
+  "category": "Groceries",
+  "date": "2024-01-15"
+}

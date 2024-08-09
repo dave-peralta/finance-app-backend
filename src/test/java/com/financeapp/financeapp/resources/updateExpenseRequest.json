@@ -1,0 +1,8 @@
+{
+  "id": "expenseId",
+  "description": "Updated grocery shopping",
+  "amount": 82.00,
+  "userId": "john_doe",
+  "category": "Groceries",
+  "date": "2024-01-15"
+}
