@@ -1,5 +1,6 @@
 package com.financeapp.financeapp.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -17,6 +18,7 @@ public class User {
     private String id;
 
     private String username;
+//    @JsonIgnore // do research on this
     private String password;
     private String email;
 
